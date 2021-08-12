@@ -2,14 +2,20 @@
 
 Build with
 
-```
+```shell
 go build
 ```
 
 Run with
 
-```
+```shell
 ./customspace # -h use flag for help
+```
+
+Upload an image
+
+```shell
+curl -F 'image=@./file.png' localhost:8080/images
 ```
 
 By default:
